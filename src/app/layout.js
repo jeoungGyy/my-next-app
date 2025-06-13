@@ -1,7 +1,7 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Next.js App with src',
+  title: 'Next.js 테스트',
   description: 'No TypeScript, using src folder',
 };
 
