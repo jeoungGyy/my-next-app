@@ -35,8 +35,61 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.form {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	border: 1px solid #ccc;
+	padding: 1rem;
+	border-radius: 8px;
+	width: 100%;
+	max-width: 600px;
+	flex-wrap: wrap;
+	margin-bottom: 2rem;
+}
+
+.label {
+	display: flex; align-items: center; gap: 0.25rem;
+}
+.input {
+	flex: 1; min-width: 150px; padding: 0.5rem;
+}
+.div3 {
+	flex: 1;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	min-height: 300px;
+	padding: 1rem;
+}
+.user {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 0.75rem;
+	margin-bottom: 1rem;
+	position: relative;
+}
+.userText {
+	font-Weight: bold;
+	margin-bottom: 0.5rem;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+.fc {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+.btn {
+	font-Size: 0.8rem;
+	color: #c00;
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+.btn.blue {
+	color: rgb(0, 123, 255);
+}
+.btn.green {
+	color: green;
 }
